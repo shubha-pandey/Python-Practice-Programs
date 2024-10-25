@@ -28,9 +28,6 @@ class window_resize :
          self.width_input.grid(row=1,column=2,padx=10, pady=10)
          self.height_input.grid(row=2,column=2,padx=10, pady=10)
 
-         #resize = Canvas(root, width=width_input, height=height_input)
-         #resize.pack()
-
          self.cont.pack(pady=10, padx=10)
 
          Button(self.root, text='Apply', command=self.change, relief='sunken').pack(pady=10)
